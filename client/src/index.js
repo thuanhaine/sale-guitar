@@ -10,8 +10,7 @@ import Login from './components/buttons/login/Login'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <>
-    <App /> 
-    <Login/>
-  </>
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 );
