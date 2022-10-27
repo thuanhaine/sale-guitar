@@ -7,8 +7,9 @@ import Product from "./components/Product";
 import Contact from "./components/Contact";
 import Staff from "./components/Staff";
 import { Route, Redirect, Switch } from "react-router-dom";
-import Cart from "./components/Cart";
+import Cart from "./components/buttons/Cart";
 import BuyNow from "./components/BuyNow";
+import SendSuccess from "./components/SendSuccess";
 import InfoStaff from "./components/InfoStaff";
 import Login from "./components/buttons/login/Login";
 import Signup from "./components/buttons/signup/Signup";
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/infostaff" component={InfoStaff} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/sendsuccess" component={SendSuccess} />
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/buynow" component={BuyNow} />
         <Redirect to="/" />

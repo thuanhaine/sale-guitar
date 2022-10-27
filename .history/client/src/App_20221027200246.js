@@ -7,7 +7,7 @@ import Product from "./components/Product";
 import Contact from "./components/Contact";
 import Staff from "./components/Staff";
 import { Route, Redirect, Switch } from "react-router-dom";
-import Cart from "./components/Cart";
+import Cart from "./components/buttons/Cart";
 import BuyNow from "./components/BuyNow";
 import InfoStaff from "./components/InfoStaff";
 import Login from "./components/buttons/login/Login";
